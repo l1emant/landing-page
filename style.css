@@ -158,7 +158,7 @@ img {
 .info-text {
   display: flex;
   justify-content: center;
-  padding: 0.2em 0.3em;
+  padding: 0.5em 0.3em;
   flex-direction: row;
   max-width: 230px;
   min-height: auto;
@@ -257,4 +257,27 @@ button {
   border-radius: 8px;
   font-size: 16px;
   font-weight: 600;
+}
+
+/**********************FOOTER**************************/
+
+.footer {
+  min-height: 100px;
+  background-color: #4e6e58;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #f9faf8;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+.footer-link {
+  color: #e1ce7a;
 }

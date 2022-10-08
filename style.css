@@ -57,9 +57,9 @@ a {
   flex: 1;
 }
 
-img {
+.img-hero {
   min-width: 500px;
-  max-height: 300px;
+  max-height: 320px;
   border-radius: 5px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
 }
@@ -105,8 +105,8 @@ img {
 }
 
 .sign-up {
-  background: #3b5342;
-  color: #fff;
+  background: #d7d9ce;
+  color: #4e6e58;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,4 +114,55 @@ img {
   border-radius: 8px;
   font-size: 16px;
   font-weight: 600;
+}
+
+/**************INFO SECTION**************/
+
+.info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #d7d9ce;
+  min-height: 400px;
+}
+
+.info-header {
+  color: #4e6e58;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  margin: 0.5em 0.5em;
+}
+
+img {
+  min-width: 125px;
+  max-height: 150px;
+  border-radius: 10px;
+  border: 5px solid #4e6e58;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: 2em;
+  flex-direction: row;
+}
+
+.info-text {
+  display: flex;
+  justify-content: center;
+  padding: 0.2em 0.3em;
+  flex-direction: row;
+  max-width: 230px;
+  min-height: auto;
+  color: #4e6e58;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }

@@ -60,6 +60,7 @@ a {
 .img-hero {
   min-width: 500px;
   max-height: 320px;
+  border-style: none;
   border-radius: 5px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
 }
@@ -196,4 +197,64 @@ img {
   display: flex;
   justify-content: flex-end;
   margin-right: 5em;
+}
+
+/**************CTA SECTION**************/
+
+.cta-section {
+  min-height: 250px;
+  background-color: #d7d9ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  height: 150px;
+  width: 1000px;
+  background-color: #4e6e58;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-text {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  /* padding: 0 0 0 3em; */
+}
+
+.cta-primary-text {
+  color: #f9faf8;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding-left: 4em;
+}
+
+.cta-secondary-text {
+  color: #e5e7eb;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  padding-left: 6.2em;
+}
+
+.signup-cta {
+  display: flex;
+  flex: 1;
+}
+
+button {
+  background: #d7d9ce;
+  color: #4e6e58;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 42px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
 }

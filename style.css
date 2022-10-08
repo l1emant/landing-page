@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  background-color: #3b5342;
+  background-color: #4e6e58;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -36,6 +36,16 @@ li {
 a {
   text-decoration: none;
   color: #f9faf8;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-links {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 /**************HERO SECTION**************/
@@ -57,15 +67,14 @@ img {
 .hero-text {
   color: #fff;
   margin: 4em;
-  padding: 3em 5em;
+  padding: 2em 5em;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-main-text {
+  padding-bottom: 0.2em;
   flex: 1;
   color: #f9faf8;
   font-size: 48px;
@@ -73,10 +82,12 @@ img {
 }
 
 .hero-secondary-text {
+  padding-bottom: 0.5em;
   flex: 1;
   color: #e5e7eb;
   font-size: 18px;
   line-height: 1.5em;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero-img {
@@ -85,4 +96,22 @@ img {
   justify-content: center;
   align-items: center;
   padding: 1em;
+}
+
+.signup-button {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.sign-up {
+  background: #3b5342;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 42px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
 }

@@ -166,3 +166,34 @@ img {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
 }
+
+/**************QUOTE SECTION**************/
+
+.quote-section {
+  min-height: 300px;
+  background-color: #ece2d0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote,
+.from {
+  color: #4e6e58;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  padding: 0 5em;
+  margin-bottom: 0.2em;
+}
+
+.from {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5em;
+}
